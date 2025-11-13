@@ -39,8 +39,6 @@ class Solution {
   }
 
   List<int> getNumFromListNode(ListNode? list) {
-    List arr = [];
-
     if (list == null) return [];
 
     if (list.next != null) {

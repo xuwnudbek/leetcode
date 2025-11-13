@@ -1,8 +1,4 @@
-void main() {
-  final Solution solution = Solution();
-
-  var res = solution.maxOperations("");
-}
+void main() {}
 
 class Solution {
   int maxOperations(String s) {
