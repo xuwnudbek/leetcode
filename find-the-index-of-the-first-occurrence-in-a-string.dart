@@ -1,17 +1,13 @@
 void main() {
   Solution solution = Solution();
 
-  var res = solution.strStr("sadbutsad", "sad");
+  var res = solution.strStr("asasadbutsad", "ssad");
 
   print(res);
 }
 
 class Solution {
   int strStr(String haystack, String needle) {
-    // haystack = "sadbutsad";
-    // needle   = "sad"
-    // result   = 0
-
-   return 1;
+    return haystack.indexOf(needle);
   }
 }
